@@ -13,7 +13,7 @@
   --color-dark-purple: #552049;
   --color-dark: #030303;
   --color-grey: #7a746e;
-  --color-light-grey: #fff7f0;
+  --color-light-cream: #fff7f0;
   --font-family: "Plus Jakarta Sans", serif;
 }
 
@@ -30,5 +30,6 @@ html {
 }
 
 body {
+  background-color: var(--color-light-cream);
   font-family: var(--font-family);
 }
