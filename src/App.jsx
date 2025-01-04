@@ -1,10 +1,11 @@
 import Container from "./component/Container/Container";
 import "./app.css";
+import Header from "./layout/Header/Header";
 
 function App() {
   return (
     <Container>
-      <header>Header</header>
+      <Header />
       <main>
         <section>Hero</section>
         <section>Services</section>

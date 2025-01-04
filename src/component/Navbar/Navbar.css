@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__logo {
+  width: 4.8rem;
+}
+
+@media (min-width: 768px) {
+  .navbar__logo {
+    width: 6.4rem;
+  }
+}
