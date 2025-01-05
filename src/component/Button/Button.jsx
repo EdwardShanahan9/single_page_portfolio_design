@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./Button.css";
 
 const colorThemes = {
@@ -12,9 +13,17 @@ const colorThemes = {
 };
 
 const Button = ({ text, colorTheme }) => {
+  const [addEffect, setAddEffect] = useState(false);
+
   return (
     <button
-      style={{ backgroundColor: colorThemes[colorTheme].background }}
+      style={{
+        backgroundColor: addEffect
+          ? colorThemes[colorTheme].hover
+          : colorThemes[colorTheme].background,
+      }}
+      onMouseEnter={() => setAddEffect(true)}
+      onMouseLeave={() => setAddEffect(false)}
       className="button"
     >
       {text}
