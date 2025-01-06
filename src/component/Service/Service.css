@@ -1,0 +1,49 @@
+.service {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2.4rem;
+}
+
+.service img {
+  align-self: flex-end;
+}
+
+.service h2 {
+  font-size: 2.4rem;
+}
+
+.service-1 {
+  grid-column: 1 / -1;
+}
+
+.service-4 {
+  grid-column: 1 / -1;
+}
+
+.service-5 {
+  grid-column: 1 / -1;
+}
+
+.service-6 {
+  grid-column: 1 / -1;
+}
+
+.service-1 img {
+  width: 128px;
+  height: 192px;
+}
+
+.service-2 img,
+.service-3 img {
+  width: 64px;
+  height: 64px;
+}
+
+.service-4 img,
+.service-5 img,
+.service-6 img {
+  width: 128px;
+  height: 64px;
+}

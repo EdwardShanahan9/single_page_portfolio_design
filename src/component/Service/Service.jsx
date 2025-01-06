@@ -1,3 +1,5 @@
+import "./Service.css";
+
 const Service = ({ img, text, color, id }) => {
   return (
     <div style={{ backgroundColor: color }} className={`service service-${id}`}>

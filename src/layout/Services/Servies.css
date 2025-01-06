@@ -1,4 +1,6 @@
 .services {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 364px 182px repeat(3, 158px);
+  gap: 2.4rem;
 }
