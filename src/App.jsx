@@ -2,6 +2,7 @@ import Container from "./component/Container/Container";
 import "./app.css";
 import Header from "./layout/Header/Header";
 import Hero from "./layout/Hero/Hero";
+import Services from "./layout/Services/Servies";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <section>Services</section>
+        <Services />
         <section>About</section>
         <section>Work</section>
         <section>CTA</section>
