@@ -8,7 +8,7 @@ const colorThemes = {
   },
   light: {
     background: "#EB7565",
-    hover: "F6A560",
+    hover: "#F6A560",
   },
 };
 

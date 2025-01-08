@@ -3,6 +3,7 @@ import "./app.css";
 import Header from "./layout/Header/Header";
 import Hero from "./layout/Hero/Hero";
 import Services from "./layout/Services/Servies";
+import About from "./layout/About/About";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <main>
         <Hero />
         <Services />
-        <section>About</section>
+        <About />
         <section>Work</section>
         <section>CTA</section>
       </main>
