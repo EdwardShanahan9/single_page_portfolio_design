@@ -16,7 +16,7 @@
 @media (min-width: 1140px) {
   .services {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 182px;
   }
 }
