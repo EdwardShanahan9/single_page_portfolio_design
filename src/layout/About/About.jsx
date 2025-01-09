@@ -1,6 +1,7 @@
 import "./About.css";
 import AboutImage from "../../assets/img/image-amy.webp";
 import Button from "../../component/Button/Button";
+
 const About = () => {
   return (
     <section className="about">

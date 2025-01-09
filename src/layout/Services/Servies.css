@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 364px 182px repeat(3, 158px);
   gap: 2.4rem;
+  margin-bottom: 10rem;
 }
 
 @media (min-width: 768px) {
@@ -10,6 +11,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 182px;
+    margin-bottom: 12rem;
   }
 }
 
@@ -18,5 +20,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 182px;
+    margin-bottom: 14rem;
   }
 }
