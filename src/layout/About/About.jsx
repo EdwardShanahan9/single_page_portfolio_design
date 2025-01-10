@@ -5,7 +5,9 @@ import Button from "../../component/Button/Button";
 const About = () => {
   return (
     <section className="about">
-      <img src={AboutImage} alt="Profile Image" />
+      <div className="about__img">
+        <img src={AboutImage} alt="Profile Image" />
+      </div>
 
       <div className="about__text">
         <h2>I’m Amy, and I’d love to work on your next project</h2>
