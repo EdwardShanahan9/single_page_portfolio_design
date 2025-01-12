@@ -4,6 +4,7 @@ import Header from "./layout/Header/Header";
 import Hero from "./layout/Hero/Hero";
 import Services from "./layout/Services/Servies";
 import About from "./layout/About/About";
+import Gallery from "./layout/Gallery/Gallery";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Hero />
         <Services />
         <About />
-        <section>Work</section>
+        <Gallery />
         <section>CTA</section>
       </main>
       <footer>Footer</footer>
